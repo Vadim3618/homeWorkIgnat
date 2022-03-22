@@ -1,7 +1,12 @@
-.someClass {
-
+.wrapper {
+margin: 0 0 0 15px;
 }
 
 .error {
-    border: 1px solid red;
+    border: 1px solid #41413d;
+}
+
+.errorMessage{
+    color: red;
+    font-size: 16px;
 }
