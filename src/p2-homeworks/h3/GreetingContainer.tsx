@@ -13,6 +13,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     const setNameCallback = (event: ChangeEvent<HTMLInputElement>) => {
         setName(event.currentTarget.value)
+        setError('')
     }
     const addUser = () => {
         if (name) {
@@ -21,7 +22,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setName('')
             setError('')
         } else {
-            setError('Пустая строка не может быть именем')
+            setError('Empty string cannot be a name')
         }
     }
 

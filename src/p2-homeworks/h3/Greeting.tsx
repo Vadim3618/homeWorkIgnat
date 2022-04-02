@@ -15,7 +15,7 @@ const Greeting: React.FC<GreetingPropsType> = (
 ) => {
 
 
-    const inputClass = s.error// need to fix with (?:) !!!!!!!!!!!!!не понимаю!!!!!!!!!!!!!!!!
+    const inputClass = error ? s.error : ''// need to fix with (?:)
 
 
     return (

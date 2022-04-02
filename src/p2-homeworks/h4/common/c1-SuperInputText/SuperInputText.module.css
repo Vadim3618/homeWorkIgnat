@@ -7,6 +7,11 @@
     background: red;
 }
 
+.input:focus {
+    outline: none;
+    border: #c3f3a8 solid 2px;
+}
+
 .error {
-    color: red;
+    color: #cb0707;
 }

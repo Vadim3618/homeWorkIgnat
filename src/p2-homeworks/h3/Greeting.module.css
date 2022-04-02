@@ -3,7 +3,7 @@ margin: 0 0 0 15px;
 }
 
 .error {
-    border: 1px solid #41413d;
+    border: red 2px solid;
 }
 
 .errorMessage{
