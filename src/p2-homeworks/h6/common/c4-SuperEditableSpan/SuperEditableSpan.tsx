@@ -60,15 +60,18 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
                     />
                 ) : (
+                <><img style={{height:'17px'}}
+                  src="https://avatars.mds.yandex.net/i?id=e99374e95a2d9cb0e4176d6cd3c02e36-4119114-images-thumbs&ref=rim&n=33&w=357&h=188"
+                  alt=""/>
                     <span
-                        onDoubleClick={onDoubleClickCallBack}
-                        className={spanClassName}
+                      onDoubleClick={onDoubleClickCallBack}
+                      className={spanClassName}
 
-                        {...restSpanProps}
+                      {...restSpanProps}
                     >
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
                         {children || restProps.value}
-                    </span>
+                    </span></>
                 )
             }
         </>
