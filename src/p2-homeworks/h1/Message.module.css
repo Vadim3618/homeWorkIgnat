@@ -61,3 +61,12 @@
     font-size: 20px;
     color: #556bbe;
 }
+
+.error{
+    border: red 2px solid;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 16px;
+}

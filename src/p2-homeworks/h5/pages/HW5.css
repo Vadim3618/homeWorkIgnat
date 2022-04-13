@@ -1,0 +1,36 @@
+.navBar {
+    display: flex;
+    position: relative;
+    left: -100%;
+    transition: left 0.2s ease;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.navBarItem {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar.active {
+    left: 0px;
+}
+
+.imgBurger{
+    height: 35px;
+}
+
+.notfound {
+    font-size: 48px;
+}
+
+.active {
+    color: rgba(94, 94, 250, 0.93);
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.notFound{
+    text-align: center;
+}
