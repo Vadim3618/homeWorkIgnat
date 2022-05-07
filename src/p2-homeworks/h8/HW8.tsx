@@ -39,17 +39,19 @@ function HW8() {
 
     return (
       <div>
-          <hr/>
           homeworks 8
-
-          {/*should work (должно работать)*/}
-          {finalPeople}
-
           <div>
               <SuperButton className={'button'} onClick={sortUp}>sort up</SuperButton>
               <SuperButton className={'button'} onClick={sortDown}>sort down</SuperButton>
               <SuperButton className={'button'} onClick={check}>check 18</SuperButton>
           </div>
+
+
+
+          {/*should work (должно работать)*/}
+          {finalPeople}
+
+
 
           <hr/>
           {/*для личного творчества, могу проверить*/}

@@ -12,8 +12,7 @@
     overflow: hidden;
 }
 .default:hover {
-    background-color: #89d8d3;
-    background-image: linear-gradient(315deg, #89d8d3 30%, #03c8a8 10%);
+    background-image: linear-gradient(315deg, #89d8d3 75%, #03c8a8 10%);
 }
 .button::after{
     display: block;
