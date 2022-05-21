@@ -16,6 +16,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         onChangeRange && onChangeRange(value)
     }
 
+
     return (
       <>
           <Slider  value={value}
